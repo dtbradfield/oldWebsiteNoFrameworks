@@ -1,0 +1,82 @@
+* {
+   margin: 0;
+   padding: 0; 
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.homeImg {
+    background-image: url("../art/dtbLandingPage.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo1 {
+    background-image: url("../art/dtbColorNoText.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+.homeImg2 {
+    background-image: url("../art/dtbLandingPageAlt.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.donBio {
+    background-image: url("../art/bioBG.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #d5ecd7;
+    text-align: center;
+    color: #142a35;
+    padding: 50px 70px;
+    border: 10px solid #142a35;
+}
+
+h2 {
+    background-color: #78c9ea;
+    background-position: relative;
+    padding: 1px 1px;
+}
+
+p {
+    background-color: #9d9b8e;
+    background-position: relative;
+    padding: 1px 1px;
+}
+
+.donCodes {
+    background-image: url("../art/codeBG.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #d5ecd7;
+    text-align: center;
+    color: #142a35;
+    padding: 50px 70px;
+    border: 10px solid #142a35;
+}
+
+.donWrites{
+    background-image: url("../art/writeBG.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #d5ecd7;
+    text-align: center;
+    color: #142a35;
+    padding: 50px 70px;
+    border: 10px solid #142a35;
+}
