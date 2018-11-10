@@ -21,7 +21,6 @@ body, html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
     min-height: 100vh;
 }
 
@@ -32,6 +31,7 @@ body, html {
     background-attachment: fixed;
     height: 100vh;
 }
+
 
 .donBio {
     background-image: url("../art/bioBG.svg");
@@ -79,4 +79,26 @@ p {
     color: #142a35;
     padding: 50px 70px;
     border: 10px solid #142a35;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: #142a35;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    color: #d5ecd7;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background: #9d9b8e;
+    color: #142a35;
 }
