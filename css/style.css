@@ -113,38 +113,3 @@ p {
     background: #9d9b8e;
     color: #142a35;
 }
-
-.sideNav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #142a35;
-    opacity: 0.9;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: .27s;
-}
-
-.sideNav a {
-    padding: 10px 10px 10px 30px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #78c9ea;
-    display: block;
-    transition: 0.3s;
-}
-
-.sideNav a:hover {
-    color: #d5ecd7;
-}
-
-.sideNav .closeBtn {
-    position: absolute;
-    top: 0;
-    right: 22px;
-    font-size: 36px;
-    margin-left: 50px;
-}
